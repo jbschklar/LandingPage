@@ -4,6 +4,10 @@
 	font-family: sans-serif;
 }
 
+img {
+	border-radius: 10px;
+}
+
 .initial-img {
 	height: 300px;
 	width: auto;
@@ -106,11 +110,12 @@ figcaption {
 	width: 250px;
 	text-align: center;
 	font-size: 18px;
-	color: #97989c;
+	color: #54555a;
 }
 
 .type-img {
 	height: 250px;
 	width: 250px;
-	box-shadow: 0 0 30px #1f29378c;
+	margin-bottom: 16px;
+	box-shadow: 0 15px 30px #1f29378c;
 }
