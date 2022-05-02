@@ -117,5 +117,21 @@ figcaption {
 	height: 250px;
 	width: 250px;
 	margin-bottom: 16px;
-	box-shadow: 0 15px 30px #1f29378c;
+	box-shadow: 0 15px 30px #1f2937a0;
+}
+
+.quote-section {
+	background-color: #e5e7eb;
+	padding: 64px 200px;
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937c0;
+}
+
+.author {
+	text-align: right;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	color: #1f2937;
 }
