@@ -79,6 +79,7 @@ header button {
 	height: 32px;
 	font-size: 18px;
 	padding: 16px 32px;
+	margin-bottom: 18px;
 	align-items: center;
 	justify-content: center;
 	border-radius: 8px;
@@ -134,4 +135,53 @@ figcaption {
 	font-style: normal;
 	font-weight: 700;
 	color: #1f2937;
+}
+
+.call-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.call-to-action {
+	border-radius: 10px;
+	margin: 64px 0;
+	padding: 42px 120px;
+	background-color: #3882f6;
+	font-size: 24px;
+	display: flex;
+	justify-content: space-between;
+	gap: 64px;
+}
+
+.action,
+.action-subtext {
+	flex-wrap: nowrap;
+}
+
+.action {
+	color: white;
+	font-weight: 600;
+}
+
+.action-subtext {
+	font-size: 16px;
+	color: #e5e7eb;
+}
+
+.action-btn {
+	border-radius: 10px;
+	padding: 0 32px;
+	border: solid 2px white;
+	fill: none;
+	background-color: #3882f6;
+	color: white;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+footer {
+	background-color: #1f2937;
+	height: 80px;
 }
